@@ -11,7 +11,7 @@ def main():
     mes = verificaMes(nasc)
     dia = nasc[0:2]
     ano = nasc[6:]
-    if(mes > 0 and mes < 13):
+    if(mes):
         print(f"{dia} de {mes} de {ano}")
     else:
         print("Mês não existente")
